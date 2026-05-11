@@ -21,7 +21,7 @@ BINANCE_API_SECRET = os.environ["BINANCE_API_SECRET"]
 SLACK_WEBHOOK      = os.environ["SLACK_WEBHOOK"]
 
 LEVERAGE_THRESHOLD = 2
-EQUITY_THRESHOLD   = 999000.0
+EQUITY_THRESHOLD   = 99000.0
 
 
 def send_slack_alert(message: str):
